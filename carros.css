@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cabeçalho{ 
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style : none;
+    gap: 30px;
+}
+.cabeçalho a{
+    text-decoration: none;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, sans-serif;
+	color: black;
+}
+
+.section{
+    padding-top: 2rem;
+}
+
+section h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+.container-card1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-top:2rem;
+}
+
+.cards img{
+    
+ 
+}
+.cards img:hover{
+    transform: scale(0.9) translatey(5px);
+    cursor: pointer;
+}
+
+.cards p{
+    display: flex;
+    justify-content: center;
+}
+
+.cards button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+    
+
+

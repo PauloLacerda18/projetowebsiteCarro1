@@ -1,0 +1,158 @@
+/* Defina as configurações globais para todos os elementos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    background: url(assets/nissan.gif) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Estilo do menu */
+.menu li  {
+    display: inline-block;
+    margin: 0 10px;
+}
+.h1{
+    color: white;
+}
+.menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu li a:hover {
+    background-color: rgba(95, 97, 131, 0.493);
+}
+
+/* Estilo do parágrafo */
+.sect1{
+    margin-top: 100vh;
+}
+.pAnimação{
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+   color: white;
+   text-align: center;
+   margin-top: 15vh;
+  
+.span {
+
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+	background: url("https://i.ibb.co/RDTnNrT/animated-text-fill.png") repeat-y;
+	-webkit-background-clip: text;
+ background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+  }
+} 
+
+/* Estilo dos cartões na seção */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardH1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: rgb(75, 75, 71);
+    width: 90%;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.card button {
+    background:transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+
+.card button:hover {
+    background-color: #3c3f42e1;
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}

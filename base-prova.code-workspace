@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../loja de carros"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "base-prova"
+	}
+}
